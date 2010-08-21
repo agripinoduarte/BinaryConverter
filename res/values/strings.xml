@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TitlePtBr">Conversor Binário v. 0.1</string>
+    <string name="app_name">Binary Converter</string>
+<color name="blue">#35509C</color>
+
+<string name="label1">&gt;</string>
+<string name="RadioButtonBinaryPtBr">Binário</string>
+<string name="RadioButtonHexPtBr">Hexadecimal</string>
+<string name="RadioButtonOctPtBr">Octal</string>
+<string name="ButtonConvert">Converter</string>
+<string name="ResultPtBr">Resultado</string>
+</resources>

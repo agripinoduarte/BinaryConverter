@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/TitlePtBr"
+	    android:textColor="#FFF"
+	/>
+	
+	<TextView 
+		android:text="@string/label1" 
+		android:id="@+id/label1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+	/>
+	
+	<!--  Camp numero a ser convertido -->
+	<EditText 
+		android:text=""
+	 	android:id="@+field/number" 
+	 	android:layout_width="wrap_content" 
+	 	android:layout_height="wrap_content"
+	 	android:width="150px"
+	 	android:inputType="number"
+	/>
+	
+	
+	
+	<RadioGroup 
+		android:id="@+radiogroup/ConvertOptions"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+	>
+		<RadioButton
+	 	android:text="@string/RadioButtonBinaryPtBr"
+	 	android:id="@+option/RadioButtonBinary" 
+	 	android:layout_width="wrap_content" 
+	 	android:layout_height="wrap_content"
+	 	
+		 />
+		
+		<RadioButton
+			android:text="@string/RadioButtonHexPtBr"
+			android:id="@+option/RadioButtonHex"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		/>
+	
+		<RadioButton
+			android:text="@string/RadioButtonOctPtBr"
+			android:id="@+option/RadioButtonOct"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		/>
+		
+		
+	</RadioGroup>
+	
+	<Button 
+		android:text="@string/ButtonConvert"
+		android:id="@+button/ButtonConvert"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView 
+		android:text="@string/ResultPtBr"
+		android:id="@+id/TextView01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<EditText
+		android:text=""
+		android:id="@+field/Result"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:width="350px"
+	/>
+
+</LinearLayout>
